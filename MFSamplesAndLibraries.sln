@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M-Files API", "M-Files API", "{BFC9716E-3A29-4482-9385-7301436D8010}"
 EndProject
@@ -211,7 +211,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COMAPI", "Samples\OAuth\COM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTAPI", "Samples\OAuth\RESTAPI\RESTAPI.csproj", "{B349EDDE-A581-470A-BFB1-E40D5ED566C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Samples\OAuth\Common\Common.csproj", "{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Samples\OAuth\Common\Common.csproj", "{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SamplesForTesting", "SamplesForTesting", "{C365D18B-95DE-46A6-A07B-41B6AD7384F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WellDev.Sync.SampleVaultApplication", "WellDev.Sync.SampleVaultApplication\WellDev.Sync.SampleVaultApplication.csproj", "{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welldev.MyExternalObject.MyExternalObjectTypeDataSource", "Welldev.MyExternalObject.MyExternalObjectTypeDataSource\Welldev.MyExternalObject.MyExternalObjectTypeDataSource.csproj", "{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -376,6 +382,18 @@ Global
 		{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE}.DebugWithoutDeployment|Any CPU.Build.0 = Debug|Any CPU
 		{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.DebugWithoutDeployment|Any CPU.ActiveCfg = Debug|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.DebugWithoutDeployment|Any CPU.Build.0 = Debug|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.DebugWithoutDeployment|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.DebugWithoutDeployment|Any CPU.Build.0 = Debug|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -436,6 +454,8 @@ Global
 		{457F6827-29D0-4770-AE56-C90E41A078C0} = {E4F1D76B-0CF7-4A64-9B84-627C3BB26C69}
 		{B349EDDE-A581-470A-BFB1-E40D5ED566C3} = {E4F1D76B-0CF7-4A64-9B84-627C3BB26C69}
 		{5DC9C4F2-FAE0-4761-A149-A7EC065FEEFE} = {E4F1D76B-0CF7-4A64-9B84-627C3BB26C69}
+		{830D9C9F-1EBE-4319-AC46-701EE5A9E6E8} = {C365D18B-95DE-46A6-A07B-41B6AD7384F6}
+		{DF2D1C2E-E188-4EC6-92D1-4F2D2A45924D} = {C365D18B-95DE-46A6-A07B-41B6AD7384F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F7B9423-0E07-4E5F-A84E-DBFCC4B91994}

@@ -21,21 +21,25 @@ namespace SearchByDisplayId
 		/// The (default) guid of the sample vault.
 		/// </summary>
 		private static readonly Guid sampleVaultGuid
-			= Guid.Parse("{C840BE1A-5B47-4AC0-8EF7-835C166C8E24}");
+			= Guid.Parse("{37AEA984-EB39-4145-89D5-C5ECFF33C8C6}");
 
 		static void Main(string[] args)
 		{
+			//var vault = new Vault();
+			//vault.TestConnectionToVault("MYSERVER", "MyVault", "MyUser", "MyPassword");
+			//var mfilesClient = new MFilesClientApplication();
+			//mfilesClient.
 
-			// We have two methods in the class.
+            // We have two methods in the class.
 
-			// One uses the helper library and is designed to read as clearly as possible.
-			// However, it does depend upon the helper library.
-			Program.UseLibrary();
+            // One uses the helper library and is designed to read as clearly as possible.
+            // However, it does depend upon the helper library.
+            Program.UseLibrary();
 
-			// The second does not use the helper library and is designed to show the full
-			// process using the API.  It can be used in situations where the helper library
-			// cannot be used.
-			Program.UseApiDirectly();
+            // The second does not use the helper library and is designed to show the full
+            // process using the API.  It can be used in situations where the helper library
+            // cannot be used.
+            Program.UseApiDirectly();
 
 		}
 
@@ -60,8 +64,8 @@ namespace SearchByDisplayId
 			var searchConditions = new SearchConditions();
 
 			// Add a condition for the display Id.
-			searchConditions.AddDisplayIdSearchCondition(Program.customerDisplayId);
-
+			//searchConditions.AddDisplayIdSearchCondition(Program.customerDisplayId);
+			//searchConditions.Add(500);
 			// Search.
 			var results = vault.ObjectSearchOperations.SearchForObjectsByConditions(searchConditions,
 				MFSearchFlags.MFSearchFlagNone, SortResults: false);

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+	<guid>e36ff011-6c63-423d-b7cc-10f80102a13b</guid>
+  <name>Welldev.MyExternalObject.MyExternalObjectTypeDataSource</name>
+	<description></description>
+	<publisher></publisher>
+	<version>0.1</version>
+	<copyright></copyright>
+	<required-mfiles-version>20.9.9430</required-mfiles-version>
+	<multi-server-compatible>true</multi-server-compatible>
+	<application-object>
+		<assembly>Welldev.MyExternalObject.MyExternalObjectTypeDataSource.dll</assembly>
+		<class>Welldev.MyExternalObject.MyExternalObjectTypeDataSource.Application</class>
+	</application-object>
+</application>
