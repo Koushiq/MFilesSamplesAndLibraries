@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MFiles.Server.Extensions">
+      <HintPath>C:\Program Files\M-Files\23.1.12196.5\Bin\anycpu\MFiles.Server.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

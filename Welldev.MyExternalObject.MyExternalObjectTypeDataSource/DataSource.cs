@@ -32,7 +32,7 @@ namespace Welldev.MyExternalObject.MyExternalObjectTypeDataSource
 		/// <summary>
 		/// Our connection.
 		/// </summary>
-		//protected IExternalObjectTypeConnection DataSourceConnection { get; private set; }
+		protected IExternalObjectTypeConnection DataSourceConnection { get; private set; }
 
 		/// <summary>
 		/// The service display name. The display name may be used e.g. for error tracking purposes.

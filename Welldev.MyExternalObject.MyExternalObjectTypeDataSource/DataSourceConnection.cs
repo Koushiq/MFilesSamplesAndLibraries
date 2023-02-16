@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading;
 using MFiles.Extensibility.ExternalObjectTypes;
 using MFiles.Extensibility.Framework.ExternalObjectTypes;
-using Welldev.MyExternalObject.MyExternalObjectTypeDataSource.Data;
 
 namespace Welldev.MyExternalObject.MyExternalObjectTypeDataSource
 {
@@ -22,16 +21,12 @@ namespace Welldev.MyExternalObject.MyExternalObjectTypeDataSource
 	// DataSourceConnection.Update.cs (methods for updating data)
 	// DataSourceConnection.Delete.cs (methods for deleting data)
 	public partial class DataSourceConnection
-		: ExternalObjectTypeConnectionBase , IDatabaseProvider
+		: ExternalObjectTypeConnectionBase 
     {
 		/// <summary>
 		/// Connection configuration.
 		/// </summary>
 		protected ExternalObjectTypeConfiguration<ConfigurationRoot> Config { get; set; }
-        private SqlConnection Connection { get ; set ; }
-        private SqlCommand SqlCommand { get; set ; }
-        private string ConnectionString { get; set; }
-
         /// <summary>
         /// Map of managed types to ColumnType.
         /// </summary>
@@ -52,10 +47,7 @@ namespace Welldev.MyExternalObject.MyExternalObjectTypeDataSource
 			CancellationToken stopToken
 		) : base( config, stopToken )
 		{
-			// Set.
 			this.Config = config;
-			this.ConnectionString = this.InitializeConnectionString();
-
         }
 
 		/// <summary>
@@ -66,12 +58,5 @@ namespace Welldev.MyExternalObject.MyExternalObjectTypeDataSource
 			// TODO: Close any connection, if needed.
 			throw new NotImplementedException();
 		}
-
-        private string InitializeConnectionString()
-        {
-		   var customDataSource = this.Config.CustomConfiguration;
-           var connectionString = @"Data Source="+ customDataSource.Host+ ";Initial Catalog="+customDataSource.Database+";User ID="+customDataSource.UserId+";Password= "+customDataSource.Password+"";
-		   return connectionString;
-        }
     }
 }

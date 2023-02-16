@@ -42,7 +42,6 @@
     <Compile Include="DataSourceConnection.Insert.cs" />
     <Compile Include="DataSourceConnection.Read.cs" />
     <Compile Include="DataSourceConnection.Update.cs" />
-    <Compile Include="Data\IDatabaseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
