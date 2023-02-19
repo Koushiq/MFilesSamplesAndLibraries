@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA04244C-5498-4033-B17C-D94326C07DBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource</RootNamespace>
+    <AssemblyName>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="ConfigurationRoot.cs" />
+    <Compile Include="DataSource.cs" />
+    <Compile Include="DataSourceConnection.cs" />
+    <Compile Include="DataSourceConnection.Delete.cs" />
+    <Compile Include="DataSourceConnection.Insert.cs" />
+    <Compile Include="DataSourceConnection.Read.cs" />
+    <Compile Include="DataSourceConnection.Update.cs" />
+    <Compile Include="Data\Builders\FileExtensionNameBuilder.cs" />
+    <Compile Include="Data\DbConnector.cs" />
+    <Compile Include="Data\Domains\FileExtension.cs" />
+    <Compile Include="Data\Domains\IEntity.cs" />
+    <Compile Include="Factories\DataPrepareFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appdef.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Interop.MFilesAPI, Version=7.0.0.0, Culture=neutral, PublicKeyToken=f1b4733f444f7ad0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Interop.MFilesAPI.21.6.12\lib\net45\Interop.MFilesAPI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MFiles.Crypto, Version=21.6.10322.12, Culture=neutral, PublicKeyToken=fa007b370d17fe5e, processorArchitecture=MSIL">
+      <HintPath>..\packages\MFiles.Crypto.21.6.12\lib\net45\MFiles.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MFiles.Extensibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3f736a53b2711c21, processorArchitecture=MSIL">
+      <HintPath>..\packages\MFiles.Extensibility.21.6.12\lib\net45\MFiles.Extensibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MFiles.Extensibility.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3f736a53b2711c21, processorArchitecture=MSIL">
+      <HintPath>..\packages\MFiles.Extensibility.Framework.21.6.12\lib\net45\MFiles.Extensibility.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MFiles.VAF.Configuration, Version=21.6.10322.12, Culture=neutral, PublicKeyToken=fa007b370d17fe5e, processorArchitecture=MSIL">
+      <HintPath>..\packages\MFiles.VAF.Configuration.21.6.12\lib\net45\MFiles.VAF.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MFiles.VAF.Configuration.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fa007b370d17fe5e, processorArchitecture=MSIL">
+      <HintPath>..\packages\MFiles.VAF.Configuration.21.6.12\lib\net45\MFiles.VAF.Configuration.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="AfterBuild">
+    <Delete Files="bin\$(Configuration)\Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.mfappx" />
+    <CreateItem Include="bin\$(Configuration)\**\*.*">
+      <Output ItemName="ZipFiles" TaskParameter="Include" />
+    </CreateItem>
+    <Zip ZipFileName="bin\$(Configuration)\Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.mfappx" WorkingDirectory="$(TargetDir)" Files="@(ZipFiles)" />
+  </Target>
+  <Import Project="..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets'))" />
+  </Target>
+  <PropertyGroup>
+    <CodeAnalysisLogFile>$(IntermediateOutputPath)$(TargetFileName).CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisSucceededFile>$(IntermediateOutputPath)$(TargetFileName).lastcodeanalysissucceeded</CodeAnalysisSucceededFile>
+  </PropertyGroup>
+</Project>

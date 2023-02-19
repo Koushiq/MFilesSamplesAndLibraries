@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+	<guid>4876561f-364b-4e04-807a-a2a9000a7d82</guid>
+  <name>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource</name>
+	<description></description>
+	<publisher></publisher>
+	<version>0.1</version>
+	<copyright></copyright>
+	<required-mfiles-version>20.9.9430</required-mfiles-version>
+	<multi-server-compatible>true</multi-server-compatible>
+	<application-object>
+		<assembly>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.dll</assembly>
+		<class>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Application</class>
+	</application-object>
+</application>
