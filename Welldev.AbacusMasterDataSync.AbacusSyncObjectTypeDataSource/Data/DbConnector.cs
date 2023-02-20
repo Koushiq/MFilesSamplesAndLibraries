@@ -25,24 +25,34 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data
         }
         private void DbConnection(ExternalObjectTypeConfiguration<ConfigurationRoot> configuration)
         {
+            var customConfiguration = configuration.CustomConfiguration;
             var connetionString = "Data Source=DESKTOP-KK6D3RE;Initial Catalog=Sample Vault Extension;User ID=sa;Password=admin;"; //configuration.CustomConfiguration.ConnectionStringRaw as string;
             Connection = new SqlConnection(connetionString);
             try
             {
                 Connection.Open();
                 Console.WriteLine("Connection Open ! ");
-                //var list = new List<ColumnMappingData>();
-                //list.Add(new ColumnMappingData()
-                //{
-                //    SourceColumnName = nameof(FileExtension.Name),
-                //    MappingType = ColumnMappingType.Property,
-                //    Insert = true,
-                //    Update = true,
-                //    Ordinal = 2,
-                //    TargetPropertyDefId = 0
-                //});
-                
-                //configuration.ColumnMapping = list;
+                var list = new List<ColumnMappingData>();
+
+                list.Add(new ColumnMappingData()
+                {
+                    SourceColumnName = nameof(FileExtension.Id),
+                    MappingType = ColumnMappingType.ObjectId,
+                    Ordinal = 1,
+                });
+
+                list.Add(new ColumnMappingData()
+                {
+                    SourceColumnName = nameof(FileExtension.Name),
+                    MappingType = ColumnMappingType.Property,
+                    Insert = true,
+                    Update = true,
+                    Ordinal = 2,
+                    TargetProperty=  customConfiguration.NameOrTitleGuid,
+                    TargetPropertyDefId = customConfiguration.NameOrTitleId
+                });
+
+                configuration.ColumnMapping = list;
                 Connection.Close();
             }
             catch (Exception ex)

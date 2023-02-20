@@ -21,9 +21,14 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
         //      public string TableName { get; set; }
 
         //"Data Source=ServerName;Initial Catalog=DatabaseName;User ID=UserName;Password=Password"
-        //[Security(ChangeBy = SecurityAttribute.UserLevel.VaultAdmin)]
-        //[DataMember]
-        //[MFPropertyDef(Required = true)]
-        //public MFIdentifier NameOrTitle = "{3E2BB7EB-C49E-4C8C-825C-CAE0AEBA9A06}";
+        [Security(ChangeBy = SecurityAttribute.UserLevel.VaultAdmin)]
+        [DataMember]
+        [MFPropertyDef(Required = true)]
+        public MFIdentifier NameOrTitleGuid = "{3E2BB7EB-C49E-4C8C-825C-CAE0AEBA9A06}";
+
+        [Security(ChangeBy = SecurityAttribute.UserLevel.VaultAdmin)]
+        [DataMember]
+        [MFPropertyDef(Required = true)]
+        public MFIdentifier NameOrTitleId = 0;
     }
 }
