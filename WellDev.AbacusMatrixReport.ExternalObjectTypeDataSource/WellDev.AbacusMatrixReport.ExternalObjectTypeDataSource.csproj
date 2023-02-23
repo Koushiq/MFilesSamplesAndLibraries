@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA04244C-5498-4033-B17C-D94326C07DBB}</ProjectGuid>
+    <ProjectGuid>{88274C33-B1D6-433A-8396-0752D74A933C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource</RootNamespace>
-    <AssemblyName>Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource</RootNamespace>
+    <AssemblyName>WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -42,11 +42,9 @@
     <Compile Include="DataSourceConnection.Insert.cs" />
     <Compile Include="DataSourceConnection.Read.cs" />
     <Compile Include="DataSourceConnection.Update.cs" />
-    <Compile Include="Data\DbConnector.cs" />
-    <Compile Include="Data\Domains\FileExtension.cs" />
-    <Compile Include="Data\Domains\IEntity.cs" />
-    <Compile Include="Factories\DataPrepareFactory.cs" />
+    <Compile Include="Models\InitializationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Formatter\JsonToModelFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="appdef.xml">
@@ -70,9 +68,6 @@
       <HintPath>..\packages\MFiles.Extensibility.Framework.21.6.12\lib\net45\MFiles.Extensibility.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MFiles.Server.Extensions">
-      <HintPath>C:\Program Files\M-Files\23.1.12196.5\Bin\anycpu\MFiles.Server.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="MFiles.VAF.Configuration, Version=21.6.10322.12, Culture=neutral, PublicKeyToken=fa007b370d17fe5e, processorArchitecture=MSIL">
       <HintPath>..\packages\MFiles.VAF.Configuration.21.6.12\lib\net45\MFiles.VAF.Configuration.dll</HintPath>
       <Private>True</Private>
@@ -85,26 +80,22 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AddressMatrixReport.json">
+    <None Include="add_report_01_api_response.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="add_report_01_api_response.json" />
-    <None Include="install-application.ps1" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild">
-    <Delete Files="bin\$(Configuration)\Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.mfappx" />
+    <Delete Files="bin\$(Configuration)\WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.mfappx" />
     <CreateItem Include="bin\$(Configuration)\**\*.*">
       <Output ItemName="ZipFiles" TaskParameter="Include" />
     </CreateItem>
-    <Zip ZipFileName="bin\$(Configuration)\Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.mfappx" WorkingDirectory="$(TargetDir)" Files="@(ZipFiles)" />
+    <Zip ZipFileName="bin\$(Configuration)\WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.mfappx" WorkingDirectory="$(TargetDir)" Files="@(ZipFiles)" />
   </Target>
   <Import Project="..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -3,7 +3,9 @@ using MFiles.Extensibility.Framework.ExternalObjectTypes;
 using MFilesAPI;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Security.AccessControl;
 //using Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data.Builders;
 using Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data.Domains;
 
@@ -13,6 +15,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data
     {
         public static readonly string INTERGER = "int";
         public static readonly string NCHAR = "nchar";
+        public static readonly string DateTime = "datetime";
     }
     public class DbConnector
     {
@@ -43,21 +46,21 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data
 
                 list.Add(new ColumnMappingData()
                 {
-                    SourceColumnName = nameof(FileExtension.Name),
+                    SourceColumnName = nameof(FileExtension.NameOrTitle),
                     MappingType = ColumnMappingType.Property,
-                    Insert = true,
-                    Update = true,
                     Ordinal = 2,
-                    TargetProperty=  customConfiguration.NameOrTitleGuid,
-                    TargetPropertyDefId = customConfiguration.NameOrTitleId
+                    Insert = false,
+                    Update= false,
+                    TargetProperty= customConfiguration.NameOrTitleGuid,
                 });
 
                 configuration.ColumnMapping = list;
+                configuration.ColumnMappingEx = list;
                 Connection.Close();
             }
             catch (Exception ex)
             {
-               Console.WriteLine("Can not open connection ! ");
+               Console.WriteLine("Can not open connection ! reason \n",ex.Message);
             }
         }
         
@@ -73,7 +76,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data
             
             if(objRawName == SQLServerTypes.NCHAR )
             {
-                columnType =  ColumnType.DBTYPE_STR;
+                columnType =  ColumnType.DBTYPE_WCHAR;
             }
             else if(objRawName==SQLServerTypes.INTERGER )
             {
@@ -104,15 +107,19 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data
             var tableName = "FileExtension"; //this.configuration.CustomConfiguration.TableName as string;
             var query = "select * from " + tableName;
             var command = new SqlCommand(query, Connection);
-            var dataList = new List<DataItem>();
+            var dataList = new List<DataItemSimple>();
             Connection.Open();
             var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                var fileExtension = new FileExtension();
-                fileExtension.Id = Convert.ToInt32(reader[nameof(FileExtension.Id)]);
-                fileExtension.Name = Convert.ToString(reader[nameof(FileExtension.Name)]);
-                dataList.Add(fileExtension);
+                var dictionaryItem = new Dictionary<int,object>();
+                // var fileExtension = new DataItemSimple();
+                /*fileExtension.Id*/
+                dictionaryItem.Add(1, (Convert.ToInt32(reader[nameof(FileExtension.Id)])));
+                dictionaryItem.Add(2, (Convert.ToString(reader[nameof(FileExtension.NameOrTitle)])));
+                var dataItemSimple = new DataItemSimple(dictionaryItem);
+                //fileExtension.NameOrTitle = Convert.ToString(reader[nameof(FileExtension.NameOrTitle)]);
+                dataList.Add(dataItemSimple);
             }
             Connection.Close();
             return dataList;

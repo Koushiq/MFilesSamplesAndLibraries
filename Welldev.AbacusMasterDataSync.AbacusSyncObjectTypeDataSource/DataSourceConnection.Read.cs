@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using MFiles.Extensibility.ExternalObjectTypes;
-using MFiles.Extensibility.Framework.ExternalObjectTypes;
 
 namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 {

@@ -1,7 +1,7 @@
 using System;
 using MFiles.Extensibility.ExternalObjectTypes;
 
-namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
+namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
 	/// <summary>
 	/// An implementation of IExternalObjectTypeConnection,
@@ -16,7 +16,8 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		public override bool CanDelete()
 		{
 			// TODO: Return true if this connection supports deleting items in the source system.
-			return true;
+			//throw new NotImplementedException();
+			return false;
 		}
 
 		/// <summary>
@@ -39,7 +40,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		public override void DeleteItem( ColumnValue extid )
 		{
 			// TODO: Delete the item.  extid.Value should be object's external ID.
-			
+			throw new NotImplementedException();
 		}
 	}
 }

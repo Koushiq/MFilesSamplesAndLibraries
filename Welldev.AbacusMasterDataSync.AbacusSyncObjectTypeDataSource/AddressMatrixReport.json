@@ -1,0 +1,1919 @@
+[
+    {
+      "INR": 232,
+      "KURZNA": "SUTER HANS",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Suter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 1,
+      "KURZNA": "FAIGLEDEV",
+      "LAND": "CH",
+      "PLZ": "9300",
+      "NAME": "Faigle Dev-Mandant",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 2,
+      "KURZNA": "MATTER & SCHLATT",
+      "LAND": "CH",
+      "PLZ": "4500",
+      "NAME": "Matter & Schlatter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 3,
+      "KURZNA": "RILLING AG",
+      "LAND": "CH",
+      "PLZ": "9200",
+      "NAME": "Rilling AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 4,
+      "KURZNA": "SWISSCOM AG",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Swisscom AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 5,
+      "KURZNA": "LAGRO GMBH",
+      "LAND": "DE",
+      "PLZ": "80000",
+      "NAME": "Lagro GmbH",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 6,
+      "KURZNA": "ROCKWELL INC",
+      "LAND": "US",
+      "PLZ": "WA98130",
+      "NAME": "Rockwell Inc.",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 7,
+      "KURZNA": "DOLBI LTD",
+      "LAND": "US",
+      "PLZ": "90000",
+      "NAME": "Dolbi Ltd",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 8,
+      "KURZNA": "BOSSHARD AG",
+      "LAND": "CH",
+      "PLZ": "3003",
+      "NAME": "Bosshard AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 9,
+      "KURZNA": "STRASSER KARL",
+      "LAND": "CH",
+      "PLZ": "8023",
+      "NAME": "Strasser",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 10,
+      "KURZNA": "KRUPP",
+      "LAND": "DE",
+      "PLZ": "21029",
+      "NAME": "Krupp Edelstahl",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 11,
+      "KURZNA": "STAHL AG",
+      "LAND": "CH",
+      "PLZ": "5000",
+      "NAME": "Stahl AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 13,
+      "KURZNA": "IMMOTREU AG",
+      "LAND": "CH",
+      "PLZ": "8001",
+      "NAME": "Immotreu AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 14,
+      "KURZNA": "DEMMLER GMBH",
+      "LAND": "DE",
+      "PLZ": "80000",
+      "NAME": "Demmler GmbH",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 15,
+      "KURZNA": "STELLA AG",
+      "LAND": "CH",
+      "PLZ": "9548",
+      "NAME": "Stella AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 16,
+      "KURZNA": "AMINA AG",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Amina AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 17,
+      "KURZNA": "FREI CLAUDIA",
+      "LAND": "CH",
+      "PLZ": "8800",
+      "NAME": "Frei",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 18,
+      "KURZNA": "BELADA AG",
+      "LAND": "CH",
+      "PLZ": "8000",
+      "NAME": "Belada AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 19,
+      "KURZNA": "BURRI AG",
+      "LAND": "CH",
+      "PLZ": "8000",
+      "NAME": "Burri AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 20,
+      "KURZNA": "BUERO EASY AG",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Büro Easy AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 21,
+      "KURZNA": "STERNGARAGE",
+      "LAND": "CH",
+      "PLZ": "9403",
+      "NAME": "Sterngarage",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 22,
+      "KURZNA": "ROSSINI ROSITA",
+      "LAND": "CH",
+      "PLZ": "6900",
+      "NAME": "Rossini",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 23,
+      "KURZNA": "SOLLBERGER AG",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Sollberger AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 24,
+      "KURZNA": "DEKO AG",
+      "LAND": "CH",
+      "PLZ": "2503",
+      "NAME": "Deko AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 25,
+      "KURZNA": "MUELLER HERBERT",
+      "LAND": "CH",
+      "PLZ": "9658",
+      "NAME": "Müller",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 26,
+      "KURZNA": "BERBER AG",
+      "LAND": "CH",
+      "PLZ": "8200",
+      "NAME": "Berber AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 27,
+      "KURZNA": "MUELLER AG",
+      "LAND": "CH",
+      "PLZ": "4000",
+      "NAME": "Müller AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 28,
+      "KURZNA": "WOHNBAU AG",
+      "LAND": "CH",
+      "PLZ": "5443",
+      "NAME": "Wohnbau AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 29,
+      "KURZNA": "POUND MICHEL",
+      "LAND": "GB",
+      "PLZ": "SW1Y",
+      "NAME": "Pound",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 30,
+      "KURZNA": "DATA SUPPORT LTD",
+      "LAND": "US",
+      "PLZ": "MA02110",
+      "NAME": "DATA Support Ltd.",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 31,
+      "KURZNA": "MCCLANE JOHN",
+      "LAND": "US",
+      "PLZ": "33139",
+      "NAME": "McClane",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 32,
+      "KURZNA": "CAVALLI FABIO",
+      "LAND": "IT",
+      "PLZ": "60000",
+      "NAME": "Cavalli",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 33,
+      "KURZNA": "Z SAMMELDEBITOR",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Z Sammeldebitor / Diverse",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 34,
+      "KURZNA": "VESR-FEHLER-KUND",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Vesr-Fehler-Kunde",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 35,
+      "KURZNA": "WINTERTHUR VERS",
+      "LAND": "CH",
+      "PLZ": "8400",
+      "NAME": "Winterthur Versicherung",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 36,
+      "KURZNA": "STADTWERKE",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Sankt Galler Stadtwerke",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 37,
+      "KURZNA": "MEIER RALPH",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Meier",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 38,
+      "KURZNA": "TISSOT NATALIE",
+      "LAND": "CH",
+      "PLZ": "1004",
+      "NAME": "Tissot",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 39,
+      "KURZNA": "OMMS SA",
+      "LAND": "CH",
+      "PLZ": "1001",
+      "NAME": "OMMS SA",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 40,
+      "KURZNA": "LORITECNICA SPA",
+      "LAND": "IT",
+      "PLZ": "30000",
+      "NAME": "Loritecnica SpA",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 41,
+      "KURZNA": "SCHROEDER HARRY",
+      "LAND": "DE",
+      "PLZ": "80000",
+      "NAME": "Schröder",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 42,
+      "KURZNA": "EURO GMBH",
+      "LAND": "DE",
+      "PLZ": "60000",
+      "NAME": "EURO GmbH",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 43,
+      "KURZNA": "EUROMESSE",
+      "LAND": "DE",
+      "PLZ": "80798",
+      "NAME": "Euromesse GmbH",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 47,
+      "KURZNA": "KASSE LADEN",
+      "LAND": "CH",
+      "PLZ": "7430",
+      "NAME": "Kasse Laden",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 51,
+      "KURZNA": "WIEDERKEHR AG",
+      "LAND": "CH",
+      "PLZ": "8902",
+      "NAME": "Wiederkehr AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 52,
+      "KURZNA": "MAHRER PAUL",
+      "LAND": "CH",
+      "PLZ": "9400",
+      "NAME": "Mahrer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 53,
+      "KURZNA": "SCHNEIDER KURT",
+      "LAND": "CH",
+      "PLZ": "9030",
+      "NAME": "Schneider",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 54,
+      "KURZNA": "EGG BARBARA",
+      "LAND": "CH",
+      "PLZ": "9450",
+      "NAME": "Egg",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 55,
+      "KURZNA": "HESS LIVIA",
+      "LAND": "CH",
+      "PLZ": "9402",
+      "NAME": "Hess",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 56,
+      "KURZNA": "AMREIN RETO",
+      "LAND": "CH",
+      "PLZ": "9326",
+      "NAME": "Amrein",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 57,
+      "KURZNA": "FISCHER KARL",
+      "LAND": "CH",
+      "PLZ": "9424",
+      "NAME": "Fischer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 58,
+      "KURZNA": "GMUENDER DARIO",
+      "LAND": "CH",
+      "PLZ": "9008",
+      "NAME": "Gmünder",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 59,
+      "KURZNA": "KOGLER ANTON",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Kogler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 60,
+      "KURZNA": "BAUMANN KURT",
+      "LAND": "CH",
+      "PLZ": "9444",
+      "NAME": "Baumann",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 61,
+      "KURZNA": "BERGER HANSJOERG",
+      "LAND": "CH",
+      "PLZ": "3153",
+      "NAME": "Berger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 62,
+      "KURZNA": "ISENRING EVELYNE",
+      "LAND": "CH",
+      "PLZ": "1000",
+      "NAME": "Isenring",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 63,
+      "KURZNA": "ZUEGER MARTIN",
+      "LAND": "CH",
+      "PLZ": "9030",
+      "NAME": "Züger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 64,
+      "KURZNA": "ZAMORANO ERNESTO",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Zamorano",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 65,
+      "KURZNA": "LANGENEGGER MEIN",
+      "LAND": "CH",
+      "PLZ": "9006",
+      "NAME": "Langenegger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 66,
+      "KURZNA": "AUTOPARK PRADATS",
+      "LAND": "CH",
+      "PLZ": "9006",
+      "NAME": "Autopark Pradatsch AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 67,
+      "KURZNA": "PETERHANS WILLI",
+      "LAND": "DE",
+      "PLZ": "78315",
+      "NAME": "Peterhans",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 69,
+      "KURZNA": "GIGANDET PHILIP",
+      "LAND": "CH",
+      "PLZ": "6900",
+      "NAME": "Gigandet",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 72,
+      "KURZNA": "EGG HANSRUEDI",
+      "LAND": "CH",
+      "PLZ": "9403",
+      "NAME": "Egg",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 73,
+      "KURZNA": "ISENRING BRUNO",
+      "LAND": "CH",
+      "PLZ": "9450",
+      "NAME": "Isenring",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 74,
+      "KURZNA": "MUELLER YVES",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Müller",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 75,
+      "KURZNA": "HEINZER CHRISTA",
+      "LAND": "CH",
+      "PLZ": "8000",
+      "NAME": "Heinzer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 76,
+      "KURZNA": "FREITAG MARKUS",
+      "LAND": "CH",
+      "PLZ": "9203",
+      "NAME": "Freitag",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 77,
+      "KURZNA": "JOST TROXLER",
+      "LAND": "CH",
+      "PLZ": "3011",
+      "NAME": "Jost Troxler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 83,
+      "KURZNA": "BUERO FUERRER",
+      "LAND": "CH",
+      "PLZ": "8010",
+      "NAME": "büro fürrer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 84,
+      "KURZNA": "BETREIBUNGSAMT",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Betreibungsamt SG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 85,
+      "KURZNA": "BUERGLER EDWIN",
+      "LAND": "CH",
+      "PLZ": "9400",
+      "NAME": "Bürgler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 86,
+      "KURZNA": "ZOLLINGER PETER",
+      "LAND": "CH",
+      "PLZ": "9030",
+      "NAME": "Zollinger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 87,
+      "KURZNA": "RUEESCH DANIEL",
+      "LAND": "CH",
+      "PLZ": "9450",
+      "NAME": "Rüesch",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 88,
+      "KURZNA": "WEIBEL WOLFGANG",
+      "LAND": "CH",
+      "PLZ": "9402",
+      "NAME": "Weibel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 89,
+      "KURZNA": "MOCK FRANZISKA",
+      "LAND": "CH",
+      "PLZ": "9326",
+      "NAME": "Mock",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 90,
+      "KURZNA": "SCHAEFLI THOMAS",
+      "LAND": "CH",
+      "PLZ": "9011",
+      "NAME": "Schäfli",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 91,
+      "KURZNA": "NIEDERBERGER MAU",
+      "LAND": "CH",
+      "PLZ": "9444",
+      "NAME": "Niederberger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 92,
+      "KURZNA": "FLUECKIGER THOMA",
+      "LAND": "CH",
+      "PLZ": "9230",
+      "NAME": "Flückiger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 93,
+      "KURZNA": "STAUB CLAUDIO",
+      "LAND": "CH",
+      "PLZ": "9100",
+      "NAME": "Staub",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 94,
+      "KURZNA": "VORMUNDSCHAFTSAM",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Vormundschaftsamt",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 95,
+      "KURZNA": "NAGEL PASCAL",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Nagel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 96,
+      "KURZNA": "PILLER KONRAD",
+      "LAND": "CH",
+      "PLZ": "8001",
+      "NAME": "Piller",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 97,
+      "KURZNA": "ADECCO",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Adecco",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 101,
+      "KURZNA": "KIEFER JENS",
+      "LAND": "CH",
+      "PLZ": "9552",
+      "NAME": "Kiefer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 103,
+      "KURZNA": "PREISIG MONIKA",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Preisig",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 104,
+      "KURZNA": "NUEESCH FABIAN",
+      "LAND": "CH",
+      "PLZ": "9444",
+      "NAME": "Nüesch",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 105,
+      "KURZNA": "SCHWARZ KARIN",
+      "LAND": "CH",
+      "PLZ": "9200",
+      "NAME": "Schwarz",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 106,
+      "KURZNA": "SWISS LIFE",
+      "LAND": "CH",
+      "PLZ": "8022",
+      "NAME": "Swiss Life AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 107,
+      "KURZNA": "SVA ST. GALLEN",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "SVA St. Gallen",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 108,
+      "KURZNA": "SUVA",
+      "LAND": "CH",
+      "PLZ": "6002",
+      "NAME": "Suva",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 109,
+      "KURZNA": "MOBILIAR",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Mobiliar",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 110,
+      "KURZNA": "ZUERICH VERSICHE",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Zürich Versicherung",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 111,
+      "KURZNA": "AUSGLEICHSKASSE",
+      "LAND": "CH",
+      "PLZ": "3007",
+      "NAME": "Ausgleichskasse des Kantons Bern",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 112,
+      "KURZNA": "HUTTER JONAS",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Hutter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 113,
+      "KURZNA": "HUBER FELIX",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Huber",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 114,
+      "KURZNA": "BIERI PETER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Bieri",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 115,
+      "KURZNA": "SCHNEIDER URS",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Schneider",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 116,
+      "KURZNA": "FREI DIETER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Frei",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 117,
+      "KURZNA": "HOFER OLIVER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Hofer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 118,
+      "KURZNA": "VOLLMEIER XAVIER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Vollmeier",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 119,
+      "KURZNA": "IBER SABOR",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Iber",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 120,
+      "KURZNA": "STEIN SILVIA",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Stein",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 121,
+      "KURZNA": "OBERHOLZER ERWIN",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Oberholzer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 122,
+      "KURZNA": "JUNG CHRISTINE",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Jung",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 123,
+      "KURZNA": "DEMMLER KLAUS",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Demmler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 124,
+      "KURZNA": "TURNER JENNIFER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Turner",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 125,
+      "KURZNA": "DUERRER ARNOLD",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Dürrer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 126,
+      "KURZNA": "SONDEREGGER KARL",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Sonderegger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 127,
+      "KURZNA": "SONDEREGGER PETE",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Sonderegger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 128,
+      "KURZNA": "BELADA URS",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Belada",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 129,
+      "KURZNA": "DI CARLA BIANCA",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Di Carla",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 130,
+      "KURZNA": "WUEST PETER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Wüst",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 131,
+      "KURZNA": "USTER HARALD",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Uster",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 132,
+      "KURZNA": "BERBER HANSPETER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Berber",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 133,
+      "KURZNA": "IMREIN KURT",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Imrein",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 134,
+      "KURZNA": "ROCHAT CLAUDE",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Rochat",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 135,
+      "KURZNA": "TBS SCHLAGER AG",
+      "LAND": "CH",
+      "PLZ": "4663",
+      "NAME": "TBS Schlager AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 136,
+      "KURZNA": "FEHR AG",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Fehr AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 137,
+      "KURZNA": "GALVANI BAECKERE",
+      "LAND": "CH",
+      "PLZ": "9008",
+      "NAME": "Galvani Bäckereimaschinen",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 138,
+      "KURZNA": "VERLAG GARZETTI",
+      "LAND": "CH",
+      "PLZ": "8002",
+      "NAME": "Verlag Garzetti & Staiger AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 139,
+      "KURZNA": "JOSEF DOLDER AG",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Josef Dolder AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 140,
+      "KURZNA": "INDOOR GOLF HORN",
+      "LAND": "CH",
+      "PLZ": "9326",
+      "NAME": "Indoor Golf Horn",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 141,
+      "KURZNA": "FIDELIO AG",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Fidelio AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 142,
+      "KURZNA": "FRUTIGER DISPLAY",
+      "LAND": "CH",
+      "PLZ": "4900",
+      "NAME": "Frutiger Display AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 143,
+      "KURZNA": "SCHMIDLI AG",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Schmidli AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 144,
+      "KURZNA": "KASSE THEKE",
+      "LAND": "CH",
+      "PLZ": "1700",
+      "NAME": "Kasse Theke",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 145,
+      "KURZNA": "KASSE LAGER",
+      "LAND": "CH",
+      "PLZ": "1205",
+      "NAME": "Kasse Lager",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 146,
+      "KURZNA": "EIDG STEUERVERWA",
+      "LAND": "CH",
+      "PLZ": "3003",
+      "NAME": "Eidgenössische Steuerverwaltung ESTV",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 147,
+      "KURZNA": "KRAEHENBUEHL AG",
+      "LAND": "CH",
+      "PLZ": "3232",
+      "NAME": "Krähenbühl AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 148,
+      "KURZNA": "NEOVAC",
+      "LAND": "CH",
+      "PLZ": "9463",
+      "NAME": "NeoVac",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 149,
+      "KURZNA": "TECHEM (SCHWEIZ)",
+      "LAND": "CH",
+      "PLZ": "8902",
+      "NAME": "Techem (Schweiz) AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 150,
+      "KURZNA": "ERNST SCHWEIZER",
+      "LAND": "CH",
+      "PLZ": "8908",
+      "NAME": "Ernst Schweizer AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 151,
+      "KURZNA": "EINWOHNERAMT",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Einwohneramt",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 152,
+      "KURZNA": "BAUMANN WALTER",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Baumann",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 153,
+      "KURZNA": "FALLER PRISKA",
+      "LAND": "CH",
+      "PLZ": "9053",
+      "NAME": "Faller",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 154,
+      "KURZNA": "CLAVADETSCHER SC",
+      "LAND": "CH",
+      "PLZ": "9053",
+      "NAME": "Clavadetscher Schreinerei AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 155,
+      "KURZNA": "SCHLUESSEL MUELL",
+      "LAND": "CH",
+      "PLZ": "9004",
+      "NAME": "Schlüssel Müller AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 156,
+      "KURZNA": "GERSTER HANNA",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Gerster",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 157,
+      "KURZNA": "EIGENMANN PHILIP",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Eigenmann",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 158,
+      "KURZNA": "WATTS JULIA",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Watts",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 159,
+      "KURZNA": "ZUEGER DOMINIK",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Züger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 160,
+      "KURZNA": "LENHERR JASMIN",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Lenherr",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 161,
+      "KURZNA": "SCHLAEPFER GIANL",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Schläpfer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 162,
+      "KURZNA": "HOHL THOMAS",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Hohl",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 163,
+      "KURZNA": "KUENZLER MONIKA",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Künzler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 164,
+      "KURZNA": "KAENZIG KEVIN",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Känzig",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 165,
+      "KURZNA": "AGLIERI ANTONIA",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Aglieri",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 166,
+      "KURZNA": "KRIEGER VANESSA",
+      "LAND": "CH",
+      "PLZ": "9012",
+      "NAME": "Krieger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 167,
+      "KURZNA": "STEINER GUENTHER",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Steiner",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 168,
+      "KURZNA": "DUERR ELEONORA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Dürr",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 169,
+      "KURZNA": "GEBERT MARKUS",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Gebert",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 170,
+      "KURZNA": "BOENI SEBASTIAN",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Böni",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 171,
+      "KURZNA": "SCHWAGER MARTIN",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Schwager",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 172,
+      "KURZNA": "ZUEST URSULA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Züst",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 173,
+      "KURZNA": "DUNIJC DRAGICA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Dunijc",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 174,
+      "KURZNA": "DORIZZI ZORAN",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Dorizzi",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 175,
+      "KURZNA": "VOGEL FRITZ",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Vogel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 176,
+      "KURZNA": "LUECHINGER REGUL",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Lüchinger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 177,
+      "KURZNA": "EBERLE ELENA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Eberle",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 178,
+      "KURZNA": "DOLDER JANA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Dolder",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 179,
+      "KURZNA": "KUETTEL ROSWITHA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Küttel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 180,
+      "KURZNA": "SERIFI JONUS",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Serifi",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 181,
+      "KURZNA": "RICHTER MANFRED",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Richter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 182,
+      "KURZNA": "HAEBERLI GLORIA",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Häberli",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 183,
+      "KURZNA": "BUEHLER MARCEL",
+      "LAND": "CH",
+      "PLZ": "9016",
+      "NAME": "Bühler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 184,
+      "KURZNA": "MAHRER PETER",
+      "LAND": "CH",
+      "PLZ": "9320",
+      "NAME": "Mahrer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 185,
+      "KURZNA": "SCHNEIDER HANS",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Schneider",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 186,
+      "KURZNA": "EGG DANIELA",
+      "LAND": "CH",
+      "PLZ": "9326",
+      "NAME": "Egg",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 187,
+      "KURZNA": "V-ZUG AG",
+      "LAND": "CH",
+      "PLZ": "6301",
+      "NAME": "V-ZUG AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 78,
+      "KURZNA": "GOETTE DANIEL",
+      "LAND": "CH",
+      "PLZ": "9403",
+      "NAME": "Götte",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 71,
+      "KURZNA": "GASSER OLIVIER",
+      "LAND": "CH",
+      "PLZ": "9436",
+      "NAME": "Gasser",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 79,
+      "KURZNA": "BISCHOF MARTIN",
+      "LAND": "CH",
+      "PLZ": "9403",
+      "NAME": "Bischof",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 80,
+      "KURZNA": "FISCHER RETO",
+      "LAND": "CH",
+      "PLZ": "9032",
+      "NAME": "Fischer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 81,
+      "KURZNA": "BRAEM NICOLE",
+      "LAND": "CH",
+      "PLZ": "8400",
+      "NAME": "Bräm",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 82,
+      "KURZNA": "SCHLEGEL URS",
+      "LAND": "CH",
+      "PLZ": "9404",
+      "NAME": "Schlegel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 98,
+      "KURZNA": "BUEHLER CLAUDIA",
+      "LAND": "CH",
+      "PLZ": "9500",
+      "NAME": "Bühler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 99,
+      "KURZNA": "WACHTER BORIS",
+      "LAND": "CH",
+      "PLZ": "8355",
+      "NAME": "Wachter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 188,
+      "KURZNA": "JOBCLOUD AG",
+      "LAND": "CH",
+      "PLZ": "8032",
+      "NAME": "JobCloud AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 189,
+      "KURZNA": "ZERANO MOEBELZUB",
+      "LAND": "CH",
+      "PLZ": "9000",
+      "NAME": "Zerano Möbelzubehör AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 190,
+      "KURZNA": "ZURFLUHR RETO",
+      "LAND": "CH",
+      "PLZ": "9300",
+      "NAME": "Zurfluhr",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 191,
+      "KURZNA": "OFFICE VS ZENT",
+      "LAND": "CH",
+      "PLZ": "3920",
+      "NAME": "Office Innovation AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 192,
+      "KURZNA": "LUSTENBERGER SAB",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Lustenberger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 193,
+      "KURZNA": "ALTHEER ERICH",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Altherr",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 194,
+      "KURZNA": "OFFICE BS",
+      "LAND": "CH",
+      "PLZ": "4057",
+      "NAME": "Office Innovation AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 195,
+      "KURZNA": "OFFICE BE",
+      "LAND": "CH",
+      "PLZ": "3800",
+      "NAME": "Office Innovation AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 196,
+      "KURZNA": "GAEMPERLE HARALD",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Gämperle",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 197,
+      "KURZNA": "IMHOLZ TAMARA",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Imholz",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 198,
+      "KURZNA": "STRASSENVERKEHRS",
+      "LAND": "CH",
+      "PLZ": "9001",
+      "NAME": "Strassenverkehrs- und Schiffahrtsamt",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 207,
+      "KURZNA": "VETTER JAN",
+      "LAND": "CH",
+      "PLZ": "9500",
+      "NAME": "Vetter",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 208,
+      "KURZNA": "KUENZLER LEONIE",
+      "LAND": "CH",
+      "PLZ": "9300",
+      "NAME": "Künzler",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 209,
+      "KURZNA": "ANDEREGG ANDREAS",
+      "LAND": "CH",
+      "PLZ": "8280",
+      "NAME": "Anderegg",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 210,
+      "KURZNA": "BEYER CLAUDIA",
+      "LAND": "CH",
+      "PLZ": "9200",
+      "NAME": "Beyer",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 211,
+      "KURZNA": "DICK MARIUS",
+      "LAND": "CH",
+      "PLZ": "9430",
+      "NAME": "Dick",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 212,
+      "KURZNA": "BRAENDLE SANDRA",
+      "LAND": "CH",
+      "PLZ": "9230",
+      "NAME": "Brändle",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 213,
+      "KURZNA": "DE COSTA SILVIA",
+      "LAND": "CH",
+      "PLZ": "9204",
+      "NAME": "De Costa",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 214,
+      "KURZNA": "SCHMIDLIN GABRIE",
+      "LAND": "CH",
+      "PLZ": "9403",
+      "NAME": "Schmidlin",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 215,
+      "KURZNA": "MEIERHANS JULIAN",
+      "LAND": "CH",
+      "PLZ": "9240",
+      "NAME": "Meierhans",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 216,
+      "KURZNA": "GIGANDET FRANC",
+      "LAND": "CH",
+      "PLZ": "2513",
+      "NAME": "Gigandet",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 217,
+      "KURZNA": "ABACUS DEMO SA",
+      "LAND": "CH",
+      "PLZ": "2501",
+      "NAME": "ABACUS Demo SA",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 218,
+      "KURZNA": "ROSSIER CHLOE",
+      "LAND": "CH",
+      "PLZ": "2000",
+      "NAME": "Rossier",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 219,
+      "KURZNA": "KLAUSER CYNTHIA",
+      "LAND": "CH",
+      "PLZ": "9443",
+      "NAME": "Klauser",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 220,
+      "KURZNA": "MALDINI FRANCO",
+      "LAND": "CH",
+      "PLZ": "9212",
+      "NAME": "Maldini",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 221,
+      "KURZNA": "MUELLER LARS",
+      "LAND": "CH",
+      "PLZ": "9450",
+      "NAME": "Müller",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 222,
+      "KURZNA": "TANNER MARCO",
+      "LAND": "CH",
+      "PLZ": "9500",
+      "NAME": "Tanner",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 223,
+      "KURZNA": "DICKEL NORBERT",
+      "LAND": "CH",
+      "PLZ": "9240",
+      "NAME": "Dickel",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 224,
+      "KURZNA": "GUENTENSPERGER P",
+      "LAND": "CH",
+      "PLZ": "9500",
+      "NAME": "Güntensperger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 225,
+      "KURZNA": "LUECHINGER THOMA",
+      "LAND": "CH",
+      "PLZ": "9200",
+      "NAME": "Lüchinger",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 226,
+      "KURZNA": "KUNZ NILS",
+      "LAND": "CH",
+      "PLZ": "9200",
+      "NAME": "Kunz",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 227,
+      "KURZNA": "MC ALLISTER STAC",
+      "LAND": "CH",
+      "PLZ": "8001",
+      "NAME": "Mc Allister",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 228,
+      "KURZNA": "BROWN JORDAN",
+      "LAND": "CH",
+      "PLZ": "8001",
+      "NAME": "Brown",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 229,
+      "KURZNA": "AMINA AG LIE",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Amina AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 230,
+      "KURZNA": "AMINA AG FAK",
+      "LAND": "CH",
+      "PLZ": "3000",
+      "NAME": "Amina AG",
+      "DataSightLevel": -1,
+      "Language": "en"
+    },
+    {
+      "INR": 231,
+      "KURZNA": "KUSTER PETER",
+      "LAND": "",
+      "PLZ": "",
+      "NAME": "Kuster",
+      "DataSightLevel": -1,
+      "Language": "en"
+    }
+  ]

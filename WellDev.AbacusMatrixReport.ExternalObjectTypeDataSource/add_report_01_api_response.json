@@ -1,0 +1,1355 @@
+{
+    "entities": [
+        {
+            "AANID": "274",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "3",
+            "LAND": "CH",
+            "PLZ": "9200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau SG"
+        },
+        {
+            "AANID": "4",
+            "LAND": "CH",
+            "PLZ": "3003",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "5",
+            "LAND": "CH",
+            "PLZ": "5000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Aarau"
+        },
+        {
+            "AANID": "6",
+            "LAND": "CH",
+            "PLZ": "8001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "7",
+            "LAND": "DE",
+            "PLZ": "80000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München"
+        },
+        {
+            "AANID": "10",
+            "LAND": "CH",
+            "PLZ": "8000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "11",
+            "LAND": "CH",
+            "PLZ": "8000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "12",
+            "LAND": "CH",
+            "PLZ": "9403",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Goldach"
+        },
+        {
+            "AANID": "13",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "14",
+            "LAND": "CH",
+            "PLZ": "8200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Schaffhausen"
+        },
+        {
+            "AANID": "15",
+            "LAND": "CH",
+            "PLZ": "8400",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Winterthur"
+        },
+        {
+            "AANID": "16",
+            "LAND": "CH",
+            "PLZ": "1001",
+            "PTT_ZUSATZ": "1",
+            "ORT": "Lausanne"
+        },
+        {
+            "AANID": "17",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "18",
+            "LAND": "DE",
+            "PLZ": "80000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München"
+        },
+        {
+            "AANID": "19",
+            "LAND": "US",
+            "PLZ": "WA98130",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Seattle"
+        },
+        {
+            "AANID": "20",
+            "LAND": "US",
+            "PLZ": "90000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "San Francisco"
+        },
+        {
+            "AANID": "21",
+            "LAND": "CH",
+            "PLZ": "8023",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "25",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "28",
+            "LAND": "CH",
+            "PLZ": "9658",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wildhaus"
+        },
+        {
+            "AANID": "29",
+            "LAND": "CH",
+            "PLZ": "4000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Basel"
+        },
+        {
+            "AANID": "30",
+            "LAND": "CH",
+            "PLZ": "5443",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Niederrohrdorf"
+        },
+        {
+            "AANID": "32",
+            "LAND": "US",
+            "PLZ": "MA02110",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Miami"
+        },
+        {
+            "AANID": "34",
+            "LAND": "IT",
+            "PLZ": "60000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Napoli"
+        },
+        {
+            "AANID": "35",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "37",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "38",
+            "LAND": "CH",
+            "PLZ": "1004",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Lausanne"
+        },
+        {
+            "AANID": "39",
+            "LAND": "IT",
+            "PLZ": "30000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Milano"
+        },
+        {
+            "AANID": "40",
+            "LAND": "DE",
+            "PLZ": "80000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München"
+        },
+        {
+            "AANID": "41",
+            "LAND": "DE",
+            "PLZ": "60000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München 2"
+        },
+        {
+            "AANID": "43",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "48",
+            "LAND": "CH",
+            "PLZ": "8902",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Urdorf"
+        },
+        {
+            "AANID": "49",
+            "LAND": "CH",
+            "PLZ": "9400",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rorschach"
+        },
+        {
+            "AANID": "50",
+            "LAND": "CH",
+            "PLZ": "9030",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Abtwil SG"
+        },
+        {
+            "AANID": "51",
+            "LAND": "CH",
+            "PLZ": "9450",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Altstätten SG"
+        },
+        {
+            "AANID": "52",
+            "LAND": "CH",
+            "PLZ": "9402",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Mörschwil"
+        },
+        {
+            "AANID": "53",
+            "LAND": "CH",
+            "PLZ": "9326",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Horn"
+        },
+        {
+            "AANID": "55",
+            "LAND": "CH",
+            "PLZ": "9008",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "57",
+            "LAND": "CH",
+            "PLZ": "9444",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Diepoldsau"
+        },
+        {
+            "AANID": "62",
+            "LAND": "CH",
+            "PLZ": "9006",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "63",
+            "LAND": "CH",
+            "PLZ": "9006",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "65",
+            "LAND": "CH",
+            "PLZ": "6900",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Lugano"
+        },
+        {
+            "AANID": "66",
+            "LAND": "CH",
+            "PLZ": "9436",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Balgach"
+        },
+        {
+            "AANID": "67",
+            "LAND": "CH",
+            "PLZ": "9403",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Goldach"
+        },
+        {
+            "AANID": "68",
+            "LAND": "CH",
+            "PLZ": "9450",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Altstätten SG"
+        },
+        {
+            "AANID": "71",
+            "LAND": "CH",
+            "PLZ": "9203",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Niederwil SG"
+        },
+        {
+            "AANID": "72",
+            "LAND": "CH",
+            "PLZ": "3011",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "73",
+            "LAND": "CH",
+            "PLZ": "9403",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Goldach"
+        },
+        {
+            "AANID": "74",
+            "LAND": "CH",
+            "PLZ": "9403",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Goldach"
+        },
+        {
+            "AANID": "75",
+            "LAND": "CH",
+            "PLZ": "9032",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Engelburg"
+        },
+        {
+            "AANID": "76",
+            "LAND": "CH",
+            "PLZ": "8400",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Winterthur"
+        },
+        {
+            "AANID": "77",
+            "LAND": "CH",
+            "PLZ": "9404",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rorschacherberg"
+        },
+        {
+            "AANID": "79",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "80",
+            "LAND": "CH",
+            "PLZ": "9400",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rorschach"
+        },
+        {
+            "AANID": "81",
+            "LAND": "CH",
+            "PLZ": "9030",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Abtwil SG"
+        },
+        {
+            "AANID": "82",
+            "LAND": "CH",
+            "PLZ": "9450",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Altstätten SG"
+        },
+        {
+            "AANID": "84",
+            "LAND": "CH",
+            "PLZ": "9326",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Horn"
+        },
+        {
+            "AANID": "85",
+            "LAND": "CH",
+            "PLZ": "9011",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "86",
+            "LAND": "CH",
+            "PLZ": "9444",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Diepoldsau"
+        },
+        {
+            "AANID": "87",
+            "LAND": "CH",
+            "PLZ": "9230",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Flawil"
+        },
+        {
+            "AANID": "88",
+            "LAND": "CH",
+            "PLZ": "9100",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Herisau"
+        },
+        {
+            "AANID": "89",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "90",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "91",
+            "LAND": "CH",
+            "PLZ": "8001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "92",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "93",
+            "LAND": "CH",
+            "PLZ": "9500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wil SG"
+        },
+        {
+            "AANID": "94",
+            "LAND": "CH",
+            "PLZ": "8355",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Aadorf"
+        },
+        {
+            "AANID": "96",
+            "LAND": "CH",
+            "PLZ": "9552",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bronschhofen"
+        },
+        {
+            "AANID": "98",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "99",
+            "LAND": "CH",
+            "PLZ": "9444",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Diepoldsau"
+        },
+        {
+            "AANID": "100",
+            "LAND": "CH",
+            "PLZ": "9200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau SG"
+        },
+        {
+            "AANID": "102",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "103",
+            "LAND": "CH",
+            "PLZ": "6002",
+            "PTT_ZUSATZ": "2",
+            "ORT": "Luzern"
+        },
+        {
+            "AANID": "105",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "108",
+            "LAND": "CH",
+            "PLZ": "4663",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Aarburg"
+        },
+        {
+            "AANID": "109",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "110",
+            "LAND": "CH",
+            "PLZ": "9008",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "111",
+            "LAND": "CH",
+            "PLZ": "8002",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "-1",
+            "LAND": "",
+            "PLZ": "",
+            "PTT_ZUSATZ": "0",
+            "ORT": ""
+        },
+        {
+            "AANID": "115",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "116",
+            "LAND": "CH",
+            "PLZ": "9326",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Horn"
+        },
+        {
+            "AANID": "117",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "118",
+            "LAND": "CH",
+            "PLZ": "4900",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Langenthal"
+        },
+        {
+            "AANID": "119",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "121",
+            "LAND": "CH",
+            "PLZ": "9300",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wittenbach"
+        },
+        {
+            "AANID": "123",
+            "LAND": "CH",
+            "PLZ": "3007",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "124",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "125",
+            "LAND": "CH",
+            "PLZ": "3153",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rüschegg Gambach"
+        },
+        {
+            "AANID": "126",
+            "LAND": "CH",
+            "PLZ": "1000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Lausanne"
+        },
+        {
+            "AANID": "130",
+            "LAND": "CH",
+            "PLZ": "3003",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "131",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "132",
+            "LAND": "CH",
+            "PLZ": "8010",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich-Mülligen"
+        },
+        {
+            "AANID": "133",
+            "LAND": "DE",
+            "PLZ": "21029",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Hamburg"
+        },
+        {
+            "AANID": "135",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "136",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "138",
+            "LAND": "CH",
+            "PLZ": "9463",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Oberriet SG"
+        },
+        {
+            "AANID": "139",
+            "LAND": "CH",
+            "PLZ": "8902",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Urdorf"
+        },
+        {
+            "AANID": "140",
+            "LAND": "CH",
+            "PLZ": "8908",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Hedingen"
+        },
+        {
+            "AANID": "142",
+            "LAND": "CH",
+            "PLZ": "3232",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Ins"
+        },
+        {
+            "AANID": "143",
+            "LAND": "DE",
+            "PLZ": "21029",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Hamburg"
+        },
+        {
+            "AANID": "148",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "149",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "150",
+            "LAND": "CH",
+            "PLZ": "9012",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "151",
+            "LAND": "CH",
+            "PLZ": "9053",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Teufen AR"
+        },
+        {
+            "AANID": "152",
+            "LAND": "CH",
+            "PLZ": "9053",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Teufen AR"
+        },
+        {
+            "AANID": "153",
+            "LAND": "CH",
+            "PLZ": "9004",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "154",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "155",
+            "LAND": "CH",
+            "PLZ": "8625",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau ZH"
+        },
+        {
+            "AANID": "156",
+            "LAND": "CH",
+            "PLZ": "8052",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "157",
+            "LAND": "CH",
+            "PLZ": "9042",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Speicher"
+        },
+        {
+            "AANID": "158",
+            "LAND": "CH",
+            "PLZ": "8500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Frauenfeld"
+        },
+        {
+            "AANID": "159",
+            "LAND": "CH",
+            "PLZ": "9400",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rorschach"
+        },
+        {
+            "AANID": "160",
+            "LAND": "CH",
+            "PLZ": "9425",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Thal"
+        },
+        {
+            "AANID": "161",
+            "LAND": "CH",
+            "PLZ": "9410",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Heiden"
+        },
+        {
+            "AANID": "162",
+            "LAND": "CH",
+            "PLZ": "9012",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "163",
+            "LAND": "DE",
+            "PLZ": "80000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München"
+        },
+        {
+            "AANID": "164",
+            "LAND": "CH",
+            "PLZ": "9100",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Herisau"
+        },
+        {
+            "AANID": "165",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "166",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "167",
+            "LAND": "CH",
+            "PLZ": "9230",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Flawil"
+        },
+        {
+            "AANID": "168",
+            "LAND": "CH",
+            "PLZ": "9014",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "169",
+            "LAND": "CH",
+            "PLZ": "9402",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Mörschwil"
+        },
+        {
+            "AANID": "170",
+            "LAND": "CH",
+            "PLZ": "9100",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Herisau"
+        },
+        {
+            "AANID": "171",
+            "LAND": "CH",
+            "PLZ": "9100",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Herisau"
+        },
+        {
+            "AANID": "172",
+            "LAND": "CH",
+            "PLZ": "9100",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Herisau"
+        },
+        {
+            "AANID": "173",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "174",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "175",
+            "LAND": "CH",
+            "PLZ": "9434",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Au SG"
+        },
+        {
+            "AANID": "176",
+            "LAND": "CH",
+            "PLZ": "9442",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Berneck"
+        },
+        {
+            "AANID": "177",
+            "LAND": "CH",
+            "PLZ": "9442",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Berneck"
+        },
+        {
+            "AANID": "178",
+            "LAND": "CH",
+            "PLZ": "9300",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wittenbach"
+        },
+        {
+            "AANID": "179",
+            "LAND": "CH",
+            "PLZ": "9014",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "180",
+            "LAND": "CH",
+            "PLZ": "9008",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "181",
+            "LAND": "CH",
+            "PLZ": "9016",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "182",
+            "LAND": "CH",
+            "PLZ": "9320",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Arbon"
+        },
+        {
+            "AANID": "183",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "184",
+            "LAND": "CH",
+            "PLZ": "9326",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Horn"
+        },
+        {
+            "AANID": "185",
+            "LAND": "CH",
+            "PLZ": "6301",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zug"
+        },
+        {
+            "AANID": "186",
+            "LAND": "CH",
+            "PLZ": "8000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "187",
+            "LAND": "CH",
+            "PLZ": "9436",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Balgach"
+        },
+        {
+            "AANID": "189",
+            "LAND": "CH",
+            "PLZ": "8032",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "191",
+            "LAND": "CH",
+            "PLZ": "8022",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "192",
+            "LAND": "CH",
+            "PLZ": "9000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "193",
+            "LAND": "CH",
+            "PLZ": "9300",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wittenbach"
+        },
+        {
+            "AANID": "198",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "199",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "201",
+            "LAND": "CH",
+            "PLZ": "4500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Solothurn"
+        },
+        {
+            "AANID": "213",
+            "LAND": "DE",
+            "PLZ": "78315",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Radolfzell"
+        },
+        {
+            "AANID": "217",
+            "LAND": "CH",
+            "PLZ": "6900",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Lugano"
+        },
+        {
+            "AANID": "218",
+            "LAND": "CH",
+            "PLZ": "2503",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Biel/Bienne"
+        },
+        {
+            "AANID": "219",
+            "LAND": "CH",
+            "PLZ": "4057",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Basel"
+        },
+        {
+            "AANID": "220",
+            "LAND": "CH",
+            "PLZ": "3920",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zermatt"
+        },
+        {
+            "AANID": "221",
+            "LAND": "CH",
+            "PLZ": "9548",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Matzingen"
+        },
+        {
+            "AANID": "222",
+            "LAND": "CH",
+            "PLZ": "8800",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Thalwil"
+        },
+        {
+            "AANID": "223",
+            "LAND": "DE",
+            "PLZ": "80798",
+            "PTT_ZUSATZ": "0",
+            "ORT": "München"
+        },
+        {
+            "AANID": "224",
+            "LAND": "CH",
+            "PLZ": "7430",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Thusis"
+        },
+        {
+            "AANID": "225",
+            "LAND": "CH",
+            "PLZ": "9402",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Mörschwil"
+        },
+        {
+            "AANID": "226",
+            "LAND": "CH",
+            "PLZ": "1700",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Fribourg"
+        },
+        {
+            "AANID": "227",
+            "LAND": "CH",
+            "PLZ": "1205",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Genève"
+        },
+        {
+            "AANID": "228",
+            "LAND": "CH",
+            "PLZ": "3800",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Interlaken"
+        },
+        {
+            "AANID": "229",
+            "LAND": "US",
+            "PLZ": "33139",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Miami"
+        },
+        {
+            "AANID": "230",
+            "LAND": "GB",
+            "PLZ": "SW1Y",
+            "PTT_ZUSATZ": "0",
+            "ORT": "London"
+        },
+        {
+            "AANID": "231",
+            "LAND": "CH",
+            "PLZ": "9424",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Rheineck"
+        },
+        {
+            "AANID": "243",
+            "LAND": "CH",
+            "PLZ": "9001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Gallen"
+        },
+        {
+            "AANID": "244",
+            "LAND": "CH",
+            "PLZ": "9500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wil SG"
+        },
+        {
+            "AANID": "245",
+            "LAND": "CH",
+            "PLZ": "9300",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wittenbach"
+        },
+        {
+            "AANID": "246",
+            "LAND": "CH",
+            "PLZ": "8280",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Kreuzlingen"
+        },
+        {
+            "AANID": "247",
+            "LAND": "CH",
+            "PLZ": "9200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau SG"
+        },
+        {
+            "AANID": "248",
+            "LAND": "CH",
+            "PLZ": "9430",
+            "PTT_ZUSATZ": "0",
+            "ORT": "St. Margrethen SG"
+        },
+        {
+            "AANID": "249",
+            "LAND": "CH",
+            "PLZ": "9230",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Flawil"
+        },
+        {
+            "AANID": "250",
+            "LAND": "CH",
+            "PLZ": "9204",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Andwil SG"
+        },
+        {
+            "AANID": "251",
+            "LAND": "CH",
+            "PLZ": "9403",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Goldach"
+        },
+        {
+            "AANID": "252",
+            "LAND": "CH",
+            "PLZ": "9240",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Uzwil"
+        },
+        {
+            "AANID": "253",
+            "LAND": "CH",
+            "PLZ": "2513",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Twann"
+        },
+        {
+            "AANID": "254",
+            "LAND": "CH",
+            "PLZ": "2501",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Biel/Bienne"
+        },
+        {
+            "AANID": "255",
+            "LAND": "CH",
+            "PLZ": "2000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Neuchâtel"
+        },
+        {
+            "AANID": "256",
+            "LAND": "CH",
+            "PLZ": "9443",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Widnau"
+        },
+        {
+            "AANID": "257",
+            "LAND": "CH",
+            "PLZ": "9212",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Arnegg"
+        },
+        {
+            "AANID": "258",
+            "LAND": "CH",
+            "PLZ": "9450",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Altstätten SG"
+        },
+        {
+            "AANID": "259",
+            "LAND": "CH",
+            "PLZ": "9500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wil SG"
+        },
+        {
+            "AANID": "260",
+            "LAND": "CH",
+            "PLZ": "9240",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Uzwil"
+        },
+        {
+            "AANID": "261",
+            "LAND": "CH",
+            "PLZ": "9500",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Wil SG"
+        },
+        {
+            "AANID": "262",
+            "LAND": "CH",
+            "PLZ": "9200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau SG"
+        },
+        {
+            "AANID": "263",
+            "LAND": "CH",
+            "PLZ": "9200",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Gossau SG"
+        },
+        {
+            "AANID": "264",
+            "LAND": "CH",
+            "PLZ": "8001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "266",
+            "LAND": "CH",
+            "PLZ": "8001",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "267",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "268",
+            "LAND": "CH",
+            "PLZ": "9030",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Abtwil SG"
+        },
+        {
+            "AANID": "269",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "270",
+            "LAND": "CH",
+            "PLZ": "3000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Bern"
+        },
+        {
+            "AANID": "271",
+            "LAND": "CH",
+            "PLZ": "9053",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Teufen AR"
+        },
+        {
+            "AANID": "272",
+            "LAND": "CH",
+            "PLZ": "8000",
+            "PTT_ZUSATZ": "0",
+            "ORT": "Zürich"
+        },
+        {
+            "AANID": "273",
+            "LAND": "CH",
+            "PLZ": "1001",
+            "PTT_ZUSATZ": "1",
+            "ORT": "Lausanne"
+        }
+    ]
+}

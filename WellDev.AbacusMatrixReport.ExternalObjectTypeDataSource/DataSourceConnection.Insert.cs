@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MFiles.Extensibility.ExternalObjectTypes;
 
-namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
+namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
 	/// <summary>
 	/// An implementation of IExternalObjectTypeConnection,
@@ -19,7 +19,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		public override bool CanReturnIdOnInsert()
 		{
 			// TODO: Return true if this connection supports returning the ID on insert.
-			return true;
+			throw new NotImplementedException();
 		}
 
 		/// <summary>
@@ -27,9 +27,9 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		/// </summary>
 		public override bool CanInsert()
 		{
-            // TODO: Return true if this connection supports inserting.
-            return true;
-
+			// TODO: Return true if this connection supports inserting.
+			//throw new NotImplementedException();
+			return false;
 		}
 
 		/// <summary>
@@ -40,14 +40,13 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		public override bool ValidateInsertStatement( List<ColumnDefinition> insertedColumns )
 		{
 			// Validate the insert statement, if appropriate.
-			return true;
+			throw new NotImplementedException();
 		}
 
 		public override string InsertItem(List<ColumnValue> values, string title)
 		{
-			// Insert the item.\
-			return title;
-			//throw new NotImplementedException();
+			// Insert the item.
+			throw new NotImplementedException();
 		}
 	}
 }

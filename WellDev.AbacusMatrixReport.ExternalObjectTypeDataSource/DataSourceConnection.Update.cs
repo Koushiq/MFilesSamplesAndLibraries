@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MFiles.Extensibility.ExternalObjectTypes;
 
-namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
+namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
 	/// <summary>
 	/// An implementation of IExternalObjectTypeConnection,
@@ -19,7 +19,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		public override bool CanUpdate()
 		{
 			// TODO: Return true if this connection supports updating items in the source system.
-			return true;
+			return false;
 		}
 
 		/// <summary>
@@ -47,6 +47,7 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		)
 		{
 			// TODO: Update the item.
+			throw new NotImplementedException();
 		}
 	}
 }

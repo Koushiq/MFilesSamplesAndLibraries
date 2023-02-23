@@ -1,13 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
 using MFiles.Extensibility.Applications;
 using MFiles.Extensibility.ExternalObjectTypes;
 using MFiles.Extensibility.Framework.Applications;
 using MFiles.Extensibility.Framework.ExternalObjectTypes;
 using MFiles.VAF.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Threading;
+using MFilesAPI;
 
-namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
+namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
 	/// <summary>
 	/// The datasource service.
@@ -84,11 +86,10 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 			//}
 
 			// Delegate to base and return all those findings as well.
-			foreach (ValidationFinding find in base.RunCustomValidation(operationContext, instance, newConfiguration))
+			foreach( ValidationFinding find in base.RunCustomValidation( operationContext, instance, newConfiguration ) )
 			{
 				yield return find;
 			}
-			//return new List<ValidationFinding>();
 		}
 
 		/// <summary>

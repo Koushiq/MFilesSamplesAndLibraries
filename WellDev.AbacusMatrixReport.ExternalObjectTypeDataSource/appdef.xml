@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+	<guid>88fbf4aa-2ac6-4c6b-ab01-6592a9ffaafa</guid>
+  <name>WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource</name>
+	<description></description>
+	<publisher></publisher>
+	<version>0.1</version>
+	<copyright></copyright>
+	<required-mfiles-version>20.9.9430</required-mfiles-version>
+	<multi-server-compatible>true</multi-server-compatible>
+	<application-object>
+		<assembly>WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.dll</assembly>
+		<class>WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.Application</class>
+	</application-object>
+</application>
