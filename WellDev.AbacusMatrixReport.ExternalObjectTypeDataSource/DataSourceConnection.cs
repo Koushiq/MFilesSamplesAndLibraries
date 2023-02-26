@@ -2,8 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using MFiles.Extensibility.Applications;
 using MFiles.Extensibility.ExternalObjectTypes;
 using MFiles.Extensibility.Framework.ExternalObjectTypes;
+using MFiles.VAF.Configuration;
+using MFilesAPI;
+using WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.Services;
 
 namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
@@ -48,19 +52,80 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 		) : base( config, stopToken )
 		{
 			// Set.
+
 			this.Config = config;
-			this.Config.ColumnMapping = this.InitializeColumnMapping();
-			this.Config.ColumnMappingEx = this.Config.ColumnMapping;
+			//this.InitializeProperties();
+			this.InitializeColumnMapping();
 
         }
-		private List<ColumnMappingData> InitializeColumnMapping()
+
+        #region UtilityMethods
+        private void InitializeProperties()
 		{
-			//initialize property if needed here 
+			var firstNode = JsonToModelFormatter.GetFirstNode(); 
+			var propertyListDef = new List<PropertyDefAdmin>();
 
+            var clientApplication = new MFilesClientApplication();
+            var vault =
+                clientApplication
+                        .GetVaultConnectionsWithGUID(this.Config.CustomConfiguration.VaultGuid)
+                        .Cast<VaultConnection>()
+                        .FirstOrDefault()?
+                        .BindToVault(IntPtr.Zero, true, true);
 
-			var fields = this.Config.CustomConfiguration.Fields;
+            for (int i = 0; i < firstNode.Count; i++)
+			{
+                var propertyDefAdmin = new PropertyDefAdmin();
+				propertyDefAdmin.SemanticAliases = new SemanticAliases() { Value = DMSDefaults.PropertyNamePerfix + firstNode[i].PropertyName } ;
+				var propertyDef = propertyDefAdmin.PropertyDef;
+
+                if (firstNode[i].PropertyType == "int")
+				{
+                    propertyDef.DataType = MFDataType.MFDatatypeInteger;
+                }
+				else
+				{
+                    propertyDef.DataType = MFDataType.MFDatatypeText;
+				}
+
+                propertyDef.Name = firstNode[i].PropertyName;
+                propertyDef.ValueList = -1;
+                propertyDef.ContentType = MFContentType.MFContentTypeGeneric;
+                propertyDef.UpdateType = MFUpdateType.MFUpdateTypeNormal;
+				propertyListDef.Add( propertyDefAdmin );
+				vault.PropertyDefOperations.AddPropertyDefAdmin(propertyDefAdmin);
+            }
+
+            var propertyValues = new MFilesAPI.PropertyValues();
+			var classPropertyValue = new MFilesAPI.PropertyValue()
+			{
+				PropertyDef = (int)MFBuiltInPropertyDef.MFBuiltInPropertyDefClass,
+			};
+
+			classPropertyValue.Value.SetValue(
+				MFDataType.MFDatatypeLookup,  // This must be correct for the property definition.
+				101 // This must be the ID of a class within the object type specified below.
+			);
+			propertyValues.Add(-1, classPropertyValue);
+
+			var sourceFiles = new MFilesAPI.SourceObjectFiles();
+			var objectTypeID = 101; // Project
+
+			var isSingleFileDocument =
+					objectTypeID == (int)MFBuiltInObjectType.MFBuiltInObjectTypeDocument && sourceFiles.Count == 1;
+
+			var objectVersion = vault.ObjectOperations.CreateNewObjectEx(
+								objectTypeID,
+								propertyValues,
+								CheckIn: true);
+		}
+
+        private void InitializeColumnMapping()
+		{
+            //initialize property if needed here 
+            this.Config.CustomConfiguration.Fields = JsonToModelFormatter.GetFirstNode();
+            var fields = this.Config.CustomConfiguration.Fields;
 			var list = new List<ColumnMappingData>();
-
 			var firstNode = fields[0];
 			var ordinal = 1;
 			list.Add(new ColumnMappingData()
@@ -72,20 +137,22 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 
 			for (int i = 1; i < fields.Count; i++)
 			{
+
+				MFIdentifier targetProperty = DMSDefaults.PropertyNamePerfix + fields[i].PropertyName;
                 list.Add(new ColumnMappingData()
                 {
 					SourceColumnName= fields[i].PropertyName,
-					MappingType = ColumnMappingType.Property,
+					MappingType = ColumnMappingType.Ignore,
 					Ordinal = ordinal++,
-					Insert=false,
-					Update=false,
-					TargetProperty= fields[i].PropertyName,
+					TargetProperty= targetProperty
                 });
             }
-
-			return list;
+			this.Config.ColumnMapping= list;
+			this.Config.ColumnMappingEx = list;
 			
         }
+
+        #endregion
         /// <summary>
         /// Close connection.
         /// </summary>

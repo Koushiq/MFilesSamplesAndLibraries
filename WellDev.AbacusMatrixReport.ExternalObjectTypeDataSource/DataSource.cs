@@ -17,6 +17,8 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 	public class DataSource
 		: ExternalObjectTypeService<ExternalObjectTypeConfiguration<ConfigurationRoot>>
 	{
+		private IOperationContext operationContext;
+		private VaultApplication vaultApplication;
 		/// <summary>
 		/// Constructor.
 		/// </summary>
@@ -27,11 +29,15 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 			VaultApplication vaultApplication
 		) : base( operationContext, vaultApplication )
 		{
-		}
+			this.operationContext = operationContext;
+			this.vaultApplication = vaultApplication;
+
+        }
 
 		/// <summary>
 		/// Our connection.
 		/// </summary>
+		/// 
 		//protected IExternalObjectTypeConnection DataSourceConnection { get; private set; }
 
 		/// <summary>
@@ -56,19 +62,22 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 		)
 		{
 			// Instantiate our data source connection.
-			return new DataSourceConnection( config, stopToken );
+			// initialize M-Files Property 
+			//this.InitializeProperty(operationContext);
+
+            return new DataSourceConnection( config, stopToken );
 		}
 
-		#region Optionals
+        #region Optionals
 
-		/// <summary>
-		/// Performs a service specific validation on the new configuration.
-		/// </summary>
-		/// <param name="operationContext">The operation context. Must not be stored.</param>
-		/// <param name="instance">The configuration instance identifier.</param>
-		/// <param name="newConfiguration">The new configuration.</param>
-		/// <returns>A collection of validation findings.</returns>
-		public override IEnumerable<ValidationFinding> RunCustomValidation(
+        /// <summary>
+        /// Performs a service specific validation on the new configuration.
+        /// </summary>
+        /// <param name="operationContext">The operation context. Must not be stored.</param>
+        /// <param name="instance">The configuration instance identifier.</param>
+        /// <param name="newConfiguration">The new configuration.</param>
+        /// <returns>A collection of validation findings.</returns>
+        public override IEnumerable<ValidationFinding> RunCustomValidation(
 			IOperationContext operationContext,
 			string instance,
 			ExternalObjectTypeConfiguration<ConfigurationRoot> newConfiguration
@@ -85,8 +94,18 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 			//			"Type", "Must be defined." );
 			//}
 
-			// Delegate to base and return all those findings as well.
-			foreach( ValidationFinding find in base.RunCustomValidation( operationContext, instance, newConfiguration ) )
+			if (newConfiguration?.CustomConfiguration == null)
+			{
+				yield return new ValidationFinding(ValidationFindingType.Error, "Configuration", "Configuration Can Not Be Null");
+			}
+			else if(string.IsNullOrEmpty(newConfiguration.CustomConfiguration.VaultGuid))
+			{
+                yield return new ValidationFinding(ValidationFindingType.Error, "Vault", "Vault GUID Can Not Be Null");
+            }
+
+
+            // Delegate to base and return all those findings as well.
+            foreach ( ValidationFinding find in base.RunCustomValidation( operationContext, instance, newConfiguration ) )
 			{
 				yield return find;
 			}

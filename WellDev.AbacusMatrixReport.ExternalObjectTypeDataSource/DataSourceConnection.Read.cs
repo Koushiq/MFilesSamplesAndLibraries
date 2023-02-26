@@ -52,18 +52,18 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 			var models = JsonToModelFormatter.GetAllNodesAsModel();
 			foreach (var model in models)
 			{
-                var dictionaryItem = new Dictionary<int, object>();
+                var dictionary = new Dictionary<int, object>();
 				var ordinalCount = 1;
 
 				if(model.PropertyType== "int")
 				{
-					dictionaryItem.Add(ordinalCount++, Convert.ToInt32(model.PropertyValue));
+					dictionary.Add(ordinalCount++, Convert.ToInt32(model.PropertyValue));
                 }
 				else
 				{
-					dictionaryItem.Add(ordinalCount++, Convert.ToString(model.PropertyValue));
+					dictionary.Add(ordinalCount++, Convert.ToString(model.PropertyValue));
 				}
-                var dataItemSimple = new DataItemSimple(dictionaryItem);
+                var dataItemSimple = new DataItemSimple(dictionary);
 				list.Add(dataItemSimple);
             }
 			return list;

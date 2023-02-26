@@ -30,6 +30,9 @@ namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource
 		/// </summary>
 		protected override void CreateServices( IOperationContext operationContext )
 		{
+			var vault = operationContext.TransactionVault;
+
+			var vaultName = vault.Name;
 			// Create the supported services.
 			this.factory = new DataSource( operationContext, this );
 

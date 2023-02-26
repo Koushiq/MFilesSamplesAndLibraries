@@ -63,7 +63,7 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.Services
 
             return list;
         }
-        public static List<InitializationModel> InitializeFromFirstNode()
+        public static List<InitializationModel> GetFirstNode()
         {
             var pathToJsonFile = "add_report_01_api_response.json";
             var list = new List<InitializationModel>();

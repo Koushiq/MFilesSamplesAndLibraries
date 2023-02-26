@@ -15,8 +15,11 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 	public class ConfigurationRoot
 	{
         [Security(ChangeBy = SecurityAttribute.UserLevel.VaultAdmin)]
+		[DataMember]
+		public IList<InitializationModel> Fields { get; set; }
+
+        [Security(ChangeBy = SecurityAttribute.UserLevel.VaultAdmin)]
         [DataMember]
-        //public Dictionary<string, Type> Fields { get; set; }
-		public IList<InitializationModel> Fields = JsonToModelFormatter.InitializeFromFirstNode();
+        public string VaultGuid { get; set; }	
     }
 }

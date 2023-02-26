@@ -42,6 +42,7 @@
     <Compile Include="DataSourceConnection.Insert.cs" />
     <Compile Include="DataSourceConnection.Read.cs" />
     <Compile Include="DataSourceConnection.Update.cs" />
+    <Compile Include="DMSDefaults.cs" />
     <Compile Include="Models\InitializationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Formatter\JsonToModelFormatter.cs" />

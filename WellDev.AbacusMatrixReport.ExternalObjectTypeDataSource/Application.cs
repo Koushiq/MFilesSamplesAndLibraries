@@ -6,6 +6,7 @@ using MFiles.Extensibility.ExternalRepositories;
 using MFiles.VAF.Configuration;
 using MFiles.Extensibility.Framework.Applications;
 using MFiles.Extensibility.Framework.ExternalObjectTypes;
+using MFilesAPI;
 
 namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 {
@@ -31,7 +32,9 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 		protected override void CreateServices( IOperationContext operationContext )
 		{
 			// Create the supported services.
+			var vault = operationContext.TransactionVault;
 			this.factory = new DataSource( operationContext, this );
 		}
-	}
+    }
+	
 }
