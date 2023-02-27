@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Security.AccessControl;
-//using Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data.Builders;
 using Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data.Domains;
 
 namespace Welldev.AbacusMasterDataSync.AbacusSyncObjectTypeDataSource.Data

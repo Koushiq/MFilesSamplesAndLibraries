@@ -142,9 +142,11 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
                 list.Add(new ColumnMappingData()
                 {
 					SourceColumnName= fields[i].PropertyName,
-					MappingType = ColumnMappingType.Ignore,
+					MappingType = ColumnMappingType.Property,
 					Ordinal = ordinal++,
-					TargetProperty= targetProperty
+                    Insert = false,
+                    Update = false,
+                    TargetProperty = targetProperty
                 });
             }
 			this.Config.ColumnMapping= list;

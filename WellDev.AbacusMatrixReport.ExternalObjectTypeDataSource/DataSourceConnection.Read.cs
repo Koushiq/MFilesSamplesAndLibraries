@@ -27,12 +27,15 @@ namespace WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource
 			var ordinalCounter = 1;
 			
 			foreach (var field in fields) {
-				var type = field.PropertyType == "int" ? typeof(int) : typeof(string);
-				list.Add(new ColumnDefinition()
+				//var type = field.PropertyType == "int" ? typeof(int) : typeof(string);
+				var type = field.PropertyType == "int" ? ColumnType.DBTYPE_NUMERIC : ColumnType.DBTYPE_WCHAR;
+
+                list.Add(new ColumnDefinition()
 				{
 					Name = field.PropertyName,
 					Ordinal= ordinalCounter++,
-					Type = typeMappingByType[type]
+					Type = type
+                    //Type = typeMappingByType[type]
                 });
 			}
 

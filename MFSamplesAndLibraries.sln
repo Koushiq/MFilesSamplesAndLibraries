@@ -227,6 +227,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbacusMatrixReportExternalO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource", "WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource\WellDev.AbacusMatrixReport.ExternalObjectTypeDataSource.csproj", "{88274C33-B1D6-433A-8396-0752D74A933C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicSourceMapping", "DynamicSourceMapping", "{E4CC6CB7-B872-46D4-810D-04F14BC5B25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welldev.Abacus.DynamicMappingObjectTypeDataSource", "Welldev.Abacus.DynamicMappingObjectTypeDataSource\Welldev.Abacus.DynamicMappingObjectTypeDataSource.csproj", "{33B5AB19-BB89-489B-8EF2-591B834E0BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -414,6 +418,12 @@ Global
 		{88274C33-B1D6-433A-8396-0752D74A933C}.DebugWithoutDeployment|Any CPU.Build.0 = Debug|Any CPU
 		{88274C33-B1D6-433A-8396-0752D74A933C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88274C33-B1D6-433A-8396-0752D74A933C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.DebugWithoutDeployment|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.DebugWithoutDeployment|Any CPU.Build.0 = Debug|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -480,6 +490,8 @@ Global
 		{DA04244C-5498-4033-B17C-D94326C07DBB} = {28A51077-C4D2-4C4F-A1E7-59F125A85537}
 		{636B39D0-9459-4F9F-81C0-09B3841E3D2D} = {C365D18B-95DE-46A6-A07B-41B6AD7384F6}
 		{88274C33-B1D6-433A-8396-0752D74A933C} = {636B39D0-9459-4F9F-81C0-09B3841E3D2D}
+		{E4CC6CB7-B872-46D4-810D-04F14BC5B25A} = {C365D18B-95DE-46A6-A07B-41B6AD7384F6}
+		{33B5AB19-BB89-489B-8EF2-591B834E0BC4} = {E4CC6CB7-B872-46D4-810D-04F14BC5B25A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F7B9423-0E07-4E5F-A84E-DBFCC4B91994}

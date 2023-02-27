@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+	<guid>bfd7361b-5c65-408a-9678-71f0191e08dd</guid>
+  <name>Welldev.Abacus.DynamicMappingObjectTypeDataSource</name>
+	<description></description>
+	<publisher></publisher>
+	<version>0.1</version>
+	<copyright></copyright>
+	<required-mfiles-version>20.9.9430</required-mfiles-version>
+	<multi-server-compatible>true</multi-server-compatible>
+	<application-object>
+		<assembly>Welldev.Abacus.DynamicMappingObjectTypeDataSource.dll</assembly>
+		<class>Welldev.Abacus.DynamicMappingObjectTypeDataSource.Application</class>
+	</application-object>
+</application>
